@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const OwnerID = "143274603744067584"
 const weather = require('weather-js');
 
-
+const prefix = '{';
 
 bot.on('message', message => {
 
